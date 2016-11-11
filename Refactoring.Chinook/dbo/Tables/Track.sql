@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Track] (
-    [TrackId]      INT             NOT NULL,
+    [Track_Id]      INT             NOT NULL,
     [Name]         NVARCHAR (200)  NOT NULL,
     [AlbumId]      INT             NULL,
     [MediaTypeId]  INT             NOT NULL,
@@ -8,7 +8,7 @@
     [Milliseconds] INT             NOT NULL,
     [Bytes]        INT             NULL,
     [UnitPrice]    NUMERIC (10, 2) NOT NULL,
-    CONSTRAINT [PK_Track] PRIMARY KEY CLUSTERED ([TrackId] ASC),
+    CONSTRAINT [PK_Track] PRIMARY KEY CLUSTERED ([Track_Id] ASC),
     CONSTRAINT [FK_TrackAlbumId] FOREIGN KEY ([AlbumId]) REFERENCES [dbo].[Album] ([AlbumId]),
     CONSTRAINT [FK_TrackGenreId] FOREIGN KEY ([GenreId]) REFERENCES [dbo].[Genre] ([GenreId]),
     CONSTRAINT [FK_TrackMediaTypeId] FOREIGN KEY ([MediaTypeId]) REFERENCES [dbo].[MediaType] ([MediaTypeId])
