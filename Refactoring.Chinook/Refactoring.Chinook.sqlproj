@@ -80,6 +80,7 @@
     <Build Include="dbo\Stored Procedures\UpdateInvoiceBillingAddress.sql" />
     <Build Include="dbo\Functions\CalculateInvoiceTotal.sql" />
     <Build Include="dbo\Views\InvoicesWithLineTotals.sql" />
+    <Build Include="dbo\Stored Procedures\ChangeTrackPriceByFactor.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Refactoring.Chinook.publish.xml" />

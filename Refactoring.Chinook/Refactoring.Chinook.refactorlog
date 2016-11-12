@@ -7,5 +7,4 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[Invoice_Id]" />
   </Operation>
-
 </Operations>
