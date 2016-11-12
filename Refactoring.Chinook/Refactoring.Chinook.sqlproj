@@ -83,9 +83,6 @@
     <Build Include="dbo\Stored Procedures\ChangeTrackPriceByFactor.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Refactoring.Chinook.publish.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <RefactorLog Include="Refactoring.Chinook.refactorlog" />
   </ItemGroup>
 </Project>
