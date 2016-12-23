@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[Invoice] (
+﻿CREATE TABLE [Sales].[Invoice] (
     [Invoice_Id]         INT             NOT NULL,
     [CustomerId]        INT             NOT NULL,
     [InvoiceDate]       DATETIME        NOT NULL,
@@ -15,5 +15,5 @@
 
 GO
 CREATE NONCLUSTERED INDEX [IFK_InvoiceCustomerId]
-    ON [dbo].[Invoice]([CustomerId] ASC);
+    ON [Sales].[Invoice]([CustomerId] ASC);
 

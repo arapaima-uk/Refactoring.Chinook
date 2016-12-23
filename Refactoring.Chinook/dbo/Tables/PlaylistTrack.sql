@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[PlaylistTrack] (
+﻿CREATE TABLE [dbo].[Playlist_Track] (
     [PlaylistId] INT NOT NULL,
     [TrackId]    INT NOT NULL,
     CONSTRAINT [PK_PlaylistTrack] PRIMARY KEY NONCLUSTERED ([PlaylistId] ASC, [TrackId] ASC),
@@ -8,6 +8,6 @@
 
 
 GO
-CREATE NONCLUSTERED INDEX [IFK_PlaylistTrackTrackId]
-    ON [dbo].[PlaylistTrack]([TrackId] ASC);
+--CREATE NONCLUSTERED INDEX [IFK_PlaylistTrackTrackId]
+--    ON [dbo].[PlaylistTrack]([TrackId] ASC);
 

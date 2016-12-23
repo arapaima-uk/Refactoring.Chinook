@@ -14,4 +14,24 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Track_Id" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="cce28c30-adb0-4019-876e-d93cc2ca0011" ChangeDateTime="11/12/2016 14:22:18">
+    <Property Name="ElementName" Value="[dbo].[Artist]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Artiste]" />
+  </Operation>
+  <Operation Name="Move Schema" Key="985e03c6-37f8-48c8-8ce8-5ed37fbb7c00" ChangeDateTime="11/12/2016 14:46:31">
+    <Property Name="ElementName" Value="[dbo].[Invoice]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="NewSchema" Value="Sales" />
+    <Property Name="IsNewSchemaExternal" Value="False" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fc4b928d-9b00-4028-9cac-5859ba9b666c" ChangeDateTime="11/12/2016 22:50:20">
+    <Property Name="ElementName" Value="[dbo].[ChangeTrackPriceByFactor]" />
+    <Property Name="ElementType" Value="SqlProcedure" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[ChangeTrackPriceByMultiplier]" />
+  </Operation>
 </Operations>

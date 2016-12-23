@@ -7,7 +7,7 @@
 	@BillingPostalCode NVARCHAR(10)
 
 AS
-	UPDATE dbo.Invoice SET
+	UPDATE [Sales].Invoice SET
 	BillingAddress = @BillingAddress,
 	BillingCity = @BillingCity,
 	BillingState = @BillingState,

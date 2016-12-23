@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[ChangeTrackPriceByFactor]
+﻿CREATE PROCEDURE [dbo].[ChangeTrackPriceByMultiplier]
 	@TrackID int,
 	@Factor NUMERIC(10, 2)
 AS
