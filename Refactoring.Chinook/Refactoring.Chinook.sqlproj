@@ -64,6 +64,11 @@
     <Folder Include="dbo\Stored Procedures" />
     <Folder Include="dbo\Functions" />
     <Folder Include="dbo\Views" />
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\Post-deploy" />
+    <Folder Include="Scripts\Pre-deploy" />
+    <Folder Include="Scripts\Pre-deploy\Refactoring" />
+    <Folder Include="Scripts\Post-deploy\Refactoring" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Customer.sql" />
@@ -88,5 +93,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Refactoring.Chinook.publish.xml" />
+    <None Include="Scripts\Pre-deploy\Refactoring\merge-first-name-and-last-name.sql" />
+    <None Include="Scripts\Post-deploy\Refactoring\merge-first-name-and-last-name.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Scripts\Pre-deploy\Pre-Deploy.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Post-deploy\Post-Deploy.sql" />
   </ItemGroup>
 </Project>
